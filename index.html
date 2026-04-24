@@ -46,26 +46,22 @@
       <a onclick="goTo('kontak')" class="nav-link nav-cta">Hubungi Kami</a>
     </div>
     <button class="hamburger" id="hamburger" aria-label="Buka menu navigasi" aria-expanded="false">
-      <span>
+      <span></span><span></span><span></span>
     </button>
   </div>
-</nav>
-
-<!-- PAGE TABS 
-<div class="page-tabs" id="pageTabs">
-  <div class="page-tabs-inner">
-    <div class="ptab active" onclick="goTo('hero')">Halaman Muka</div>
-    <div class="ptab" onclick="goTo('tentang')">Tentang Kami</div>
-    <div class="ptab" onclick="goTo('visi-misi')">Visi &amp; Misi</div>
-    <div class="ptab" onclick="goTo('tugas')">Kegiatan Ambalan</div>
-    <div class="ptab" onclick="goTo('pengurus')">Struktur Pengurus</div>
-    <div class="ptab" onclick="goTo('proker')">Program Kerja</div>
-    <div class="ptab" onclick="goTo('berita')">Berita &amp; Info</div>
-    <div class="ptab" onclick="goTo('galeri')">Galeri</div>
-    <div class="ptab" onclick="goTo('pengaduan')">Pengaduan</div>
-    <div class="ptab" onclick="goTo('kontak')">Kontak</div>
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a onclick="goTo('hero'); closeMobileMenu();" class="mobile-link">Beranda</a>
+    <a onclick="goTo('tentang'); closeMobileMenu();" class="mobile-link">Tentang Ambalan</a>
+    <a onclick="goTo('visi-misi'); closeMobileMenu();" class="mobile-link">Visi &amp; Misi</a>
+    <a onclick="goTo('tugas'); closeMobileMenu();" class="mobile-link">Kegiatan Ambalan</a>
+    <a onclick="goTo('pengurus'); closeMobileMenu();" class="mobile-link">Pengurus</a>
+    <a onclick="goTo('proker'); closeMobileMenu();" class="mobile-link">Program Kerja</a>
+    <a onclick="goTo('berita'); closeMobileMenu();" class="mobile-link">Berita</a>
+    <a onclick="goTo('galeri'); closeMobileMenu();" class="mobile-link">Galeri</a>
+    <a onclick="goTo('pengaduan'); closeMobileMenu();" class="mobile-link">Pengaduan</a>
+    <a onclick="goTo('kontak'); closeMobileMenu();" class="mobile-link mobile-link-cta">Hubungi Kami</a>
   </div>
-</div> -->
+</nav>
 
 <!-- HERO -->
 <section class="hero" id="hero">
