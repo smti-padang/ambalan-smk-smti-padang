@@ -1,0 +1,1016 @@
+<!-- Hubungi saya jika web nya error WA 083169616849/ IG:@fajribsg (Fajri DA22) -->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-cfg="identity.pageTitle">Ambalan Ir.Juanda &amp; Rohana Kudus SMK SMTI Padang</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- KONFIGURASI: edit semua foto, identitas, kontak, berita, dan galeri di config.js -->
+  <script src="config.js"></script>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="topbar-left" data-cfg="identity.schoolFull">SMK SMTI Padang — Kementerian Perindustrian RI</div>
+  <div class="topbar-right">
+    <a data-cfg-href="contact.instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+    <a href="#kontak" onclick="goTo('kontak'); return false;">Kontak</a>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo" onclick="goTo('hero'); return false;">
+      <img data-cfg-src="logo.path"
+           data-cfg-alt="logo.alt"
+           src="assets/images/logo/logo-pramuka.png"
+           alt="Logo Ambalan Pramuka Penegak SMK SMTI Padang"
+           class="logo-image"
+           loading="lazy">
+      <div class="logo-text">
+        <div class="logo-main" data-cfg="identity.tagline">Pramuka Penegak SMK SMTI Padang</div>
+        <div class="logo-sub" data-cfg="identity.ambalan">Ambalan Ir.Juanda & Rohana Kudus</div>
+      </div>
+    </a>
+    <div class="nav-menu" id="navMenu">
+      <a onclick="goTo('hero')" class="nav-link active">Beranda</a>
+      <a onclick="goTo('tentang')" class="nav-link">Tentang Ambalan</a>
+      <a onclick="goTo('visi-misi')" class="nav-link">Visi &amp; Misi</a>
+      <a onclick="goTo('pengurus')" class="nav-link">Pengurus</a>
+      <a onclick="goTo('proker')" class="nav-link">Program Kerja</a>
+      <a onclick="goTo('berita')" class="nav-link">Berita</a>
+      <a onclick="goTo('galeri')" class="nav-link">Galeri</a>
+      <a onclick="goTo('pengaduan')" class="nav-link">Pengaduan</a>
+      <a onclick="goTo('kontak')" class="nav-link nav-cta">Hubungi Kami</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Buka menu navigasi" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a onclick="goTo('hero'); closeMobileMenu();" class="mobile-link">Beranda</a>
+    <a onclick="goTo('tentang'); closeMobileMenu();" class="mobile-link">Tentang Ambalan</a>
+    <a onclick="goTo('visi-misi'); closeMobileMenu();" class="mobile-link">Visi &amp; Misi</a>
+    <a onclick="goTo('tugas'); closeMobileMenu();" class="mobile-link">Kegiatan Ambalan</a>
+    <a onclick="goTo('pengurus'); closeMobileMenu();" class="mobile-link">Pengurus</a>
+    <a onclick="goTo('proker'); closeMobileMenu();" class="mobile-link">Program Kerja</a>
+    <a onclick="goTo('berita'); closeMobileMenu();" class="mobile-link">Berita</a>
+    <a onclick="goTo('galeri'); closeMobileMenu();" class="mobile-link">Galeri</a>
+    <a onclick="goTo('pengaduan'); closeMobileMenu();" class="mobile-link">Pengaduan</a>
+    <a onclick="goTo('kontak'); closeMobileMenu();" class="mobile-link mobile-link-cta">Hubungi Kami</a>
+  </div>
+</nav>
+
+<!-- PAGE TABS -->
+<div class="page-tabs" id="pageTabs">
+  <div class="page-tabs-inner">
+    <div class="ptab active" onclick="goTo('hero')">Halaman Muka</div>
+    <div class="ptab" onclick="goTo('tentang')">Tentang Kami</div>
+    <div class="ptab" onclick="goTo('visi-misi')">Visi &amp; Misi</div>
+    <div class="ptab" onclick="goTo('tugas')">Kegiatan Ambalan</div>
+    <div class="ptab" onclick="goTo('pengurus')">Struktur Pengurus</div>
+    <div class="ptab" onclick="goTo('proker')">Program Kerja</div>
+    <div class="ptab" onclick="goTo('berita')">Berita &amp; Info</div>
+    <div class="ptab" onclick="goTo('galeri')">Galeri</div>
+    <div class="ptab" onclick="goTo('pengaduan')">Pengaduan</div>
+    <div class="ptab" onclick="goTo('kontak')">Kontak</div>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-dots"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-badge">Gerakan Pramuka Penegak</div>
+      <h1>SMK SMTI Padang<br><span>Ambalan Ir.Juanda &amp; Rohana Kudus</span></h1>
+      <p class="hero-sub">Membina karakter, kemandirian, dan jiwa kepemimpinan melalui kegiatan kepramukaan yang terstruktur, bermakna, dan penuh semangat.</p>
+      <div class="hero-btns">
+        <button class="btn-hero btn-primary" onclick="goTo('tentang')">Kenali Ambalan</button>
+        <button class="btn-hero btn-secondary" onclick="goTo('proker')">Program Kerja</button>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="hero-card-num">2026</div>
+      <div class="hero-card-label">Periode Aktif</div>
+      <div class="hero-card-divider"></div>
+      <div style="display:flex;flex-direction:column;gap:12px;margin-top:8px;">
+        <div style="text-align:center;">
+          <div style="font-size:1.6rem;font-weight:700;font-family:'Playfair Display',serif;color:#FFB300;">60+</div>
+          <div style="font-size:10px;font-weight:600;letter-spacing:0.1em;color:#A8C890;text-transform:uppercase;margin-top:2px;">Anggota Aktif</div>
+        </div>
+        <div class="hero-card-divider"></div>
+        <div style="text-align:center;">
+          <div style="font-size:1.6rem;font-weight:700;font-family:'Playfair Display',serif;color:#FFB300;">12</div>
+          <div style="font-size:10px;font-weight:600;letter-spacing:0.1em;color:#A8C890;text-transform:uppercase;margin-top:2px;">Program Kerja</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section class="section" id="tentang">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-body">
+        <div class="section-label">Tentang Kami</div>
+        <h2 class="section-title">Mengenal Ambalan Pramuka</h2>
+        <p class="section-desc">Mengenal lebih dekat organisasi Ambalan Pramuka Penegak di SMK SMTI Padang.</p>
+        <p>Ambalan Pramuka Penegak merupakan satuan gerak dan wadah pembinaan tertinggi bagi Pramuka Penegak di SMK SMTI Padang. Ambalan menjadi tempat bagi para anggota untuk mengasah kemandirian dan jiwa kepemimpinan dalam satuan terpisah.</p>
+        <p>Sebagai organisasi kepanduan, Ambalan menjalankan program pembinaan watak, keterampilan kepramukaan, dan pengabdian masyarakat berlandaskan Dasadarma Pramuka.</p>
+        <p>Ambalan SMK SMTI Padang berada di bawah pembinaan Pembina Pramuka sekolah dan berkomitmen mencetak anggota penegak yang disiplin, bertanggung jawab, dan siap mengabdi kepada bangsa.</p>
+      </div>
+      <div>
+        <div class="about-highlight">
+          <h3>PERAN UTAMA Ambalan</h3>
+          <ul>
+            <li>Membina anggota berlandaskan Dasadarma Pramuka</li>
+            <li>Menyelenggarakan latihan rutin kepramukaan</li>
+            <li>Mengikuti pertemuan Ambalan dan raimuna tingkat cabang hingga nasional</li>
+            <li>Melaksanakan kegiatan bakti sosial dan pengabdian masyarakat</li>
+            <li>Melatih keterampilan bertahan hidup dan navigasi alam</li>
+            <li>Melantik anggota dari Bantara ke tingkat Laksana</li>
+          </ul>
+        </div>
+        <div style="margin-top:1.25rem;display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+          <div style="background:var(--gray-light);border-radius:10px;padding:1.25rem;text-align:center;">
+            <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--blue);">85+</div>
+            <div style="font-size:11px;font-weight:600;color:var(--text-muted);letter-spacing:0.08em;text-transform:uppercase;margin-top:4px;">Anggota Aktif</div>
+          </div>
+          <div style="background:var(--gray-light);border-radius:10px;padding:1.25rem;text-align:center;">
+            <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--accent);">23+</div>
+            <div style="font-size:11px;font-weight:600;color:var(--text-muted);letter-spacing:0.08em;text-transform:uppercase;margin-top:4px;">Tahun Berdiri</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VISI MISI -->
+<div class="section-alt" id="visi-misi">
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-label">Arah &amp; Tujuan</div>
+      <h2 class="section-title">Visi &amp; Misi Ambalan</h2>
+      <p class="section-desc">Landasan gerak dan semangat pengurus Ambalan SMK SMTI Padang.</p>
+      <div class="vm-grid">
+        <div class="vm-card visi">
+          <div class="vm-card-icon">🏛️</div>
+          <h3>Visi</h3>
+          <p>Menjadi ambalan penegak terbaik yang melahirkan generasi berkarakter Pancasila, terampil, mandiri, dan siap mengabdi kepada bangsa melalui semangat kepramukaan Indonesia.</p>
+        </div>
+        <div class="vm-card misi">
+          <div class="vm-card-icon">⚡</div>
+          <h3>Misi</h3>
+          <ul>
+            <li>Membina anggota berlandaskan nilai-nilai Dasadarma Pramuka</li>
+            <li>Menyelenggarakan latihan rutin dan kegiatan kepanduan yang bermakna</li>
+            <li>Mengikuti pertemuan Ambalan dan raimuna tingkat cabang hingga nasional</li>
+            <li>Melaksanakan program bakti sosial dan pengabdian kepada masyarakat</li>
+            <li>Menumbuhkan semangat patriotisme, disiplin, dan kemandirian anggota</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- TUGAS Ambalan -->
+<section class="section" id="tugas">
+  <div class="section-inner">
+    <div class="section-label">Fungsi &amp; Kewenangan</div>
+    <h2 class="section-title">Tugas &amp; Wewenang Ambalan</h2>
+    <p class="section-desc">Peran dan tanggung jawab yang diemban oleh Ambalan Pramuka Penegak.</p>
+    <div class="tugas-grid">
+      <div class="tugas-card">
+        <div class="tugas-num">01</div>
+        <h3>Latihan Rutin Kepramukaan</h3>
+        <p>Latihan mingguan mencakup keterampilan tali temali, morse, semaphore, PBB, dan navigasi alam.</p>
+      </div>
+      <div class="tugas-card">
+        <div class="tugas-num">02</div>
+        <h3>Perkemahan &amp; Jelajah Alam</h3>
+        <p>Kegiatan berkemah dan jelajah alam untuk melatih ketahanan fisik, kerja sama, dan kemandirian.</p>
+      </div>
+      <div class="tugas-card">
+        <div class="tugas-num">03</div>
+        <h3>Bakti Sosial Masyarakat</h3>
+        <p>Program pengabdian kepada masyarakat meliputi kerja bakti, donor darah, dan pemberian bantuan.</p>
+      </div>
+      <div class="tugas-card">
+        <div class="tugas-num">04</div>
+        <h3>Lomba &amp; Raimuna</h3>
+        <p>Partisipasi aktif dalam raimuna kepramukaan tingkat cabang, daerah, hingga nasional.</p>
+      </div>
+      <div class="tugas-card">
+        <div class="tugas-num">05</div>
+        <h3>Pelatihan P3K &amp; SAR Dasar</h3>
+        <p>Pembekalan pertolongan pertama, teknik SAR dasar, dan penanganan kedaruratan bersama lembaga terkait.</p>
+      </div>
+      <div class="tugas-card">
+        <div class="tugas-num">06</div>
+        <h3>Pelantikan Bantara &amp; Laksana</h3>
+        <p>Proses pencapaian SKK dan pelantikan resmi anggota dari tingkat Bantara ke Penegak Laksana.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PENGURUS -->
+<div class="section-alt" id="pengurus">
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-label">Dewan Ambalan</div>
+      <h2 class="section-title">Struktur Organisasi Dewan Ambalan 2026/2027</h2>
+      <p class="section-desc">Ir. Juanda – Rohana Kudus · Gugus Depan 03-129 / 03-130 · SMK SMTI Padang</p>
+
+      <!-- ══════════════════════════════════════
+           BAGAN STRUKTUR ORGANISASI
+      ══════════════════════════════════════ -->
+      <div class="org-chart">
+
+        <!-- ── LEVEL 1: KAMABIGUS ── -->
+        <div class="org-level">
+          <div class="org-node top-node">
+            <div class="org-node-label">KAMABIGUS</div>
+            <div class="org-node-name">Sylvi, S.T., M.Si.</div>
+          </div>
+        </div>
+        <div class="org-connector-v"></div>
+
+        <!-- ── LEVEL 2: KETUA HARIAN ── -->
+        <div class="org-level">
+          <div class="org-node mid-node">
+            <div class="org-node-label">KETUA HARIAN</div>
+            <div class="org-node-name">Vinky Ninndemona, S.T., M.Si.</div>
+          </div>
+        </div>
+        <div class="org-connector-v"></div>
+
+        <!-- ── LEVEL 3: KETUA PEMBINA + SEKRETARIS GUGUS DEPAN ── -->
+        <div class="org-level org-level-split2">
+          <div class="org-node side-node">
+            <div class="org-node-label">KETUA PEMBINA GUGUS DEPAN</div>
+            <div class="org-node-name">Setiawanda, M.Pd.T.</div>
+          </div>
+          <div class="org-node side-node">
+            <div class="org-node-label">SEKRETARIS GUGUS DEPAN</div>
+            <div class="org-node-name">Dedi Gusmanto, S.Pd.</div>
+          </div>
+        </div>
+        <div class="org-connector-v"></div>
+
+        <!-- ── LEVEL 4: PEMBINA (5 orang) ── -->
+        <div class="org-level org-level-5">
+          <div class="org-node pembina-node">
+            <div class="org-node-label">PEMBINA</div>
+            <div class="org-node-name">Akbar Amirullah, S.Tr.T.</div>
+          </div>
+          <div class="org-node pembina-node">
+            <div class="org-node-label">PEMBINA</div>
+            <div class="org-node-name">Fauzan, S.Bns.</div>
+          </div>
+          <div class="org-node pembina-node">
+            <div class="org-node-label">PEMBINA</div>
+            <div class="org-node-name">Hendriyanto</div>
+          </div>
+          <div class="org-node pembina-node">
+            <div class="org-node-label">PEMBINA</div>
+            <div class="org-node-name">Nur Aisyah Herbin, S.Pd.</div>
+          </div>
+          <div class="org-node pembina-node">
+            <div class="org-node-label">PEMBINA</div>
+            <div class="org-node-name">Puspita Sari</div>
+          </div>
+          <div class="org-node pembina-node">
+            <div class="org-node-label">PEMBINA</div>
+            <div class="org-node-name">Sitra Wulandari, A.Md.</div>
+          </div>
+        </div>
+        <div class="org-connector-v"></div>
+
+        <!-- ── LEVEL 5a: PEMANGKU ADAT (baris sendiri di atas Pradana) ── -->
+        <div class="org-level org-level-split2">
+          <div class="org-node adat-node">
+            <div class="org-node-label">PEMANGKU ADAT</div>
+            <div class="org-node-name">Fathabiyu Annafi Alra</div>
+          </div>
+          <div class="org-node adat-node">
+            <div class="org-node-label">PEMANGKU ADAT</div>
+            <div class="org-node-name">Vanesya Aprilna C.</div>
+          </div>
+        </div>
+        <div class="org-connector-v"></div>
+
+        <!-- ── LEVEL 5b: PRADANA PA + PRADANA PI ── -->
+        <div class="org-level org-level-split2">
+          <div class="org-node pradana-node">
+            <div class="org-node-label">PRADANA PA</div>
+            <div class="org-node-name">M. Andis Purbaya</div>
+          </div>
+          <div class="org-node pradana-node">
+            <div class="org-node-label">PRADANA PI</div>
+            <div class="org-node-name">Batrisia Najla</div>
+          </div>
+        </div>
+        <div class="org-connector-v"></div>
+
+        <!-- ── LEVEL 6: SEKRETARIS PA + SEKRETARIS PI ── -->
+        <div class="org-level org-level-split2">
+          <div class="org-node sekret-node">
+            <div class="org-node-label">SEKRETARIS PA</div>
+            <div class="org-node-name">Raffa Abigail Yafsi</div>
+          </div>
+          <div class="org-node sekret-node">
+            <div class="org-node-label">SEKRETARIS PI</div>
+            <div class="org-node-name">Nikita Maulidia</div>
+          </div>
+        </div>
+        <div class="org-connector-v"></div>
+
+        <!-- ── LEVEL 7: BENDAHARA PA + BENDAHARA PI ── -->
+        <div class="org-level org-level-split2">
+          <div class="org-node bendahara-node">
+            <div class="org-node-label">BENDAHARA PA</div>
+            <div class="org-node-name">Farelo Ramadhani</div>
+          </div>
+          <div class="org-node bendahara-node">
+            <div class="org-node-label">BENDAHARA PI</div>
+            <div class="org-node-name">Neng Fauziah Putri</div>
+          </div>
+        </div>
+        <div class="org-connector-v"></div>
+
+        <!-- ══════════════════════════
+             SEKSI-SEKSI (5 seksi)
+        ══════════════════════════ -->
+        <div class="org-seksi-wrap">
+
+          <!-- SEKSI TEKNIK KEPRAMUKAAN -->
+          <div class="org-seksi">
+            <div class="org-seksi-header">SEKSI TEKNIK KEPRAMUKAAN</div>
+            <div class="org-seksi-koord-row">
+              <div class="org-koord-col">
+                <div class="org-koord-label">KOORDINATOR PA</div>
+                <div class="org-koord-name">Muhamad ZulFajri</div>
+                <div class="org-anggota-list">
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Novrileo Obama</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Rhadiq Adiguna Fefindo</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Rafi Afriady</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Arsyad Abdul Rahman</div>
+                  <!--  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Muhamad ZulFajri</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Audi Riski</div>  -->
+                </div>
+              </div>
+              <div class="org-koord-col">
+                <div class="org-koord-label">KOORDINATOR PI</div>
+                <div class="org-koord-name">Hanifah Putri Efendi</div>
+                <div class="org-anggota-list">
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Raysha Kausarany</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Ayra Arasy Resyka</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Zievara Khairunnisa</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Cindy Aulia</div>
+                  <!--  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Inaya Salma</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Raysha Kausarany</div>   -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SEKSI PENGEMBANGAN SDM -->
+          <div class="org-seksi">
+            <div class="org-seksi-header">SEKSI PENGEMBANGAN SDM</div>
+            <div class="org-seksi-koord-row">
+              <div class="org-koord-col">
+                <div class="org-koord-label">KOORDINATOR PA</div>
+                <div class="org-koord-name">Dion</div>
+                <div class="org-anggota-list">
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Andika Yudha Ramadani</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Farel Praditia</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Rifki Ikhsan Jamil </div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Adskhan Daffa Shendry</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Farel Padria</div>
+                  <!-- <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">M.Al Ghani Ezza Safirah</div>  -->
+                </div>
+              </div>
+              <div class="org-koord-col">
+                <div class="org-koord-label">KOORDINATOR PI</div>
+                <div class="org-koord-name">Rizka Aldimahera</div>
+                <div class="org-anggota-list">
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Cahaya Putri Khayra</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Rova lisakdiyah</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Hazimah Rafifa Abny</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Aulia Dwi Parlincia</div>
+                  <!-- <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Nafisha Syakina Vicella</div>  -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SEKSI PENGADERAN & PRESTASI -->
+          <div class="org-seksi">
+            <div class="org-seksi-header">SEKSI PENGADERAN &amp; PRESTASI</div>
+            <div class="org-seksi-koord-row">
+              <div class="org-koord-col">
+                <div class="org-koord-label">KOORDINATOR PA</div>
+                <div class="org-koord-name">Muhammad Faiz Razaq</div>
+                <div class="org-anggota-list">
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Muhammad Fakry Habibie</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Siswandi Hidayat</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Farez Noufal Nadjiib</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Juliandra Fernando</div>
+                  <!-- <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">M. Faiz Razaq</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Siswandi Hidayat</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Farez Naufal Nadjih</div>  -->
+                </div>
+              </div>
+              <div class="org-koord-col">
+                <div class="org-koord-label">KOORDINATOR PI</div>
+                <div class="org-koord-name">Regina Gustia</div>
+                <div class="org-anggota-list">
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Nafisha Syakina Vizella</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Zahra Juliani Sukri</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Meylisa Rahmawati Putri </div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Shafira Dwi Putri</div>
+                  <!--  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Regina Gastia</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Batrisia Najla</div>  -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SEKSI HUMAS & IT -->
+          <div class="org-seksi">
+            <div class="org-seksi-header">SEKSI HUMAS &amp; IT</div>
+            <div class="org-seksi-koord-row">
+              <div class="org-koord-col">
+                <div class="org-koord-label">KOORDINATOR PA</div>
+                <div class="org-koord-name">Syahrul Karim</div>
+                <div class="org-anggota-list">
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Aidil Rizki</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Delvin Hafizdul Haq</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Haqbib Reszk Cahyono</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Rezky Ramadhan </div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Raden Muhammad Fajar</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Muhammad Rasya Rauf Sampurna</div>
+                  <!-- <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Haajib Reszk Cahyono</div>  -->
+                </div>
+              </div>
+              <div class="org-koord-col">
+                <div class="org-koord-label">KOORDINATOR PI</div>
+                <div class="org-koord-name">Gina Rahmadani</div>
+                <div class="org-anggota-list">
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Arifah Naila Fadhila</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Merli Arifatul Hanifah</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Laora Novira Ningsih</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Khayyira Luthfia Verdinal</div>
+                  <!--  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Ayra Arasy Resyka</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Merli Arifatul Hanifah</div>  -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SEKSI SIAGA BENCANA -->
+          <div class="org-seksi">
+            <div class="org-seksi-header">SEKSI SIAGA BENCANA</div>
+            <div class="org-seksi-koord-row">
+              <div class="org-koord-col">
+                <div class="org-koord-label">KOORDINATOR PA</div>
+                <div class="org-koord-name">M. Al Ghani Erza Safitrah</div>
+                <div class="org-anggota-list">
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Aziizul Haq Celmi </div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Raihan Sulindra</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Faiz Habiburrahman </div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Afif Kholish</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Pandu Mayesa Divia</div>
+                  <!--  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Delvin Mujfadzal Haq</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Andhika Yudha Ramadhani</div>  -->
+                </div>
+              </div>
+              <div class="org-koord-col">
+                <div class="org-koord-label">KOORDINATOR PI</div>
+                <div class="org-koord-name">Hamella El Hubby </div>
+                <div class="org-anggota-list">
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Kayla Khoirunnisa</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Inaya Salma</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Nana Reysha Dendri Hayati</div>
+                  <div class="org-anggota-label">ANGGOTA</div>
+                  <div class="org-anggota-name">Keysha Tillah Aldrina</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /org-seksi-wrap -->
+
+      </div><!-- /org-chart -->
+
+      <div class="pengurus-grid-2col" style="display:none;">
+
+        <!-- BARIS 1: Pemangku Adat (featured) -->
+        <div class="pcard featured">
+          <div class="pcard-foto-wrap featured-foto">
+            <img src="https://i.pravatar.cc/160?img=53" alt="Fathabiyu Anafi Alra" class="pcard-foto" loading="lazy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="pcard-foto-fallback" style="display:none;">FA</div>
+            <div class="pcard-foto-badge">Pemangku Adat</div>
+          </div>
+          <div class="pcard-info">
+            <div class="pcard-name">Fathabiyu Anafi Alra</div>
+            <div class="pcard-role">Pemangku Adat Putra</div>
+            <div class="pcard-jabatan-badge">Pemangku Adat</div>
+          </div>
+        </div>
+        <div class="pcard featured">
+          <div class="pcard-foto-wrap featured-foto">
+            <img src="https://i.pravatar.cc/160?img=47" alt="Vanesya Aprilna Chandra" class="pcard-foto" loading="lazy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="pcard-foto-fallback" style="display:none;">VA</div>
+            <div class="pcard-foto-badge">Pemangku Adat</div>
+          </div>
+          <div class="pcard-info">
+            <div class="pcard-name">Vanesya Aprilna Chandra</div>
+            <div class="pcard-role">Pemangku Adat Putri</div>
+            <div class="pcard-jabatan-badge">Pemangku Adat</div>
+          </div>
+        </div>
+
+        <!-- BARIS 2: Pradana -->
+        <div class="pcard">
+          <div class="pcard-foto-wrap">
+            <img src="https://i.pravatar.cc/120?img=11" alt="Muhammad Andis Purbaya" class="pcard-foto" loading="lazy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="pcard-foto-fallback a" style="display:none;">AP</div>
+          </div>
+          <div class="pcard-info">
+            <div class="pcard-name">Muhammad Andis Purbaya</div>
+            <div class="pcard-role">Pradana Putra</div>
+          </div>
+        </div>
+        <div class="pcard">
+          <div class="pcard-foto-wrap">
+            <img src="https://i.pravatar.cc/120?img=44" alt="Batrisia Najla" class="pcard-foto" loading="lazy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="pcard-foto-fallback a" style="display:none;">PN</div>
+          </div>
+          <div class="pcard-info">
+            <div class="pcard-name">Batrisia Najla</div>
+            <div class="pcard-role">Pradana Putri</div>
+          </div>
+        </div>
+
+        <!-- BARIS 3: Sekretaris -->
+        <div class="pcard">
+          <div class="pcard-foto-wrap">
+            <img src="https://i.pravatar.cc/120?img=15" alt="Raffa Abigail Yafsi" class="pcard-foto" loading="lazy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="pcard-foto-fallback b" style="display:none;">RA</div>
+          </div>
+          <div class="pcard-info">
+            <div class="pcard-name">Raffa Abigail Yafsi</div>
+            <div class="pcard-role">Sekretaris Putra</div>
+          </div>
+        </div>
+        <div class="pcard">
+          <div class="pcard-foto-wrap">
+            <img src="https://i.pravatar.cc/120?img=48" alt="Nikita Maulidia" class="pcard-foto" loading="lazy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="pcard-foto-fallback b" style="display:none;">NM</div>
+          </div>
+          <div class="pcard-info">
+            <div class="pcard-name">Nikita Maulidia</div>
+            <div class="pcard-role">Sekretaris Putri</div>
+          </div>
+        </div>
+
+        <!-- BARIS 4: Bendahara -->
+        <div class="pcard">
+          <div class="pcard-foto-wrap">
+            <img src="https://i.pravatar.cc/120?img=12" alt="Farelo Ramadhani" class="pcard-foto" loading="lazy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="pcard-foto-fallback c" style="display:none;">FR</div>
+          </div>
+          <div class="pcard-info">
+            <div class="pcard-name">Farelo Ramadhani</div>
+            <div class="pcard-role">Bendahara Putra</div>
+          </div>
+        </div>
+        <div class="pcard">
+          <div class="pcard-foto-wrap">
+            <img src="https://i.pravatar.cc/120?img=49" alt="Neng Fauziah Putri" class="pcard-foto" loading="lazy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="pcard-foto-fallback c" style="display:none;">NF</div>
+          </div>
+          <div class="pcard-info">
+            <div class="pcard-name">Neng Fauziah Putri</div>
+            <div class="pcard-role">Bendahara Putri</div>
+          </div>
+        </div>
+
+      </div><!-- /pengurus-grid-2col -->
+    </div>
+  </section>
+</div>
+
+<!-- PROGRAM KERJA -->
+<section class="section" id="proker">
+  <div class="section-inner">
+    <div class="section-label">Program Unggulan</div>
+    <h2 class="section-title">Program Kerja Ambalan</h2>
+    <p class="section-desc">Kegiatan terprogram Ambalan Penegak SMK SMTI Padang periode 2026/2027.</p>
+    <div class="proker-grid">
+      <div class="proker-item">
+        <div class="proker-icon">🏕️</div>
+        <div class="proker-body">
+          <h3>Perkemahan Tahunan</h3>
+          <p>Perkemahan bersama seluruh anggota untuk melatih kemandirian, kerjasama, dan ketahanan di alam terbuka.</p>
+          <span class="proker-tag tag-tahunan">Tahunan</span>
+        </div>
+      </div>
+      <div class="proker-item">
+        <div class="proker-icon">📋</div>
+        <div class="proker-body">
+          <h3>Latihan Rutin Mingguan</h3>
+          <p>Latihan kepramukaan setiap Sabtu mencakup keterampilan teknik, PBB, sandi, dan pengembangan diri.</p>
+          <span class="proker-tag tag-rutin">Rutin</span>
+        </div>
+      </div>
+      <div class="proker-item">
+        <div class="proker-icon">🗺️</div>
+        <div class="proker-body">
+          <h3>Jelajah Alam &amp; Navigasi</h3>
+          <p>Latihan orienteering, membaca peta topografi, dan navigasi alam bebas untuk mengasah insting kepanduan.</p>
+          <span class="proker-tag tag-rutin">Rutin</span>
+        </div>
+      </div>
+      <div class="proker-item">
+        <div class="proker-icon">🎓</div>
+        <div class="proker-body">
+          <h3>Pelantikan Bantara &amp; Laksana</h3>
+          <p>Pelantikan resmi anggota baru sebagai Penegak Bantara dan kenaikan tingkat ke Laksana.</p>
+          <span class="proker-tag tag-tahunan">Tahunan</span>
+        </div>
+      </div>
+      <div class="proker-item">
+        <div class="proker-icon">🏆</div>
+        <div class="proker-body">
+          <h3>Pertemuan Ambalan &amp; Raimuna</h3>
+          <p>Kegiatan berkemah dan jelajah alam untuk melatih ketahanan fisik, kerja sama, dan kemandirian.</p>
+          <span class="proker-tag tag-tahunan">Tahunan</span>
+        </div>
+      </div>
+      <div class="proker-item">
+        <div class="proker-icon">🌱</div>
+        <div class="proker-body">
+          <h3>Bakti Sosial &amp; Lingkungan</h3>
+          <p>Kegiatan kerja bakti, donor darah, dan bantuan kepada warga yang membutuhkan di sekitar sekolah.</p>
+          <span class="proker-tag tag-insidental">Insidental</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BERITA -->
+<div class="section-alt" id="berita">
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-label">Informasi Terkini</div>
+      <h2 class="section-title">Berita &amp; Pengumuman</h2>
+      <p class="section-desc">Ikuti perkembangan terbaru dari Ambalan Ir.Juanda &amp; Rohana Kudus</p>
+      <!-- Konten berita di-render otomatis dari config.js (SITE_CONFIG.beritaMain & beritaList) -->
+      <div class="berita-grid">
+        <div class="berita-main" id="beritaMain"></div>
+        <div class="berita-list-side" id="beritaList"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- GALERI -->
+<section class="section" id="galeri">
+  <div class="section-inner">
+    <div class="section-label">Dokumentasi</div>
+    <h2 class="section-title">Galeri Kegiatan</h2>
+    <p class="section-desc">Momen-momen berkesan dari berbagai kegiatan Ambalan Penegak SMK SMTI Padang.</p>
+
+    <!-- Filter Kategori -->
+    <div class="galeri-filter" id="galeriFilter">
+      <button class="gfilter-btn active" onclick="filterGaleri('semua', this)">Semua</button>
+      <button class="gfilter-btn" onclick="filterGaleri('pelantikan', this)">Pelantikan</button>
+      <button class="gfilter-btn" onclick="filterGaleri('perkemahan', this)">Perkemahan</button>
+      <button class="gfilter-btn" onclick="filterGaleri('latihan', this)">Latihan</button>
+      <button class="gfilter-btn" onclick="filterGaleri('bakti-sosial', this)">Bakti Sosial</button>
+      <button class="gfilter-btn" onclick="filterGaleri('upacara', this)">Upacara</button>
+      <button class="gfilter-btn" onclick="filterGaleri('bukber', this)">Buka Bersama</button>
+    </div>
+
+    <!-- Info Halaman -->
+    <div class="galeri-page-info" id="galeriPageInfo">
+      <span id="galeriPageText">Halaman 1 dari 1</span>
+      <span id="galeriCountText">8 foto</span>
+    </div>
+
+    <!-- Galeri di-render otomatis dari config.js (SITE_CONFIG.galeri).
+         Untuk menambah/mengganti foto: edit array galeri di config.js. -->
+    <div class="galeri-grid" id="galeriGrid"></div>
+
+
+    <!-- Pagination -->
+    <div class="galeri-pagination" id="galeriPagination">
+      <button class="gpag-btn" id="gpagPrev" onclick="changeGaleriPage(-1)" aria-label="Halaman sebelumnya">&#8592; Sebelumnya</button>
+      <div class="gpag-numbers" id="gpagNumbers"></div>
+      <button class="gpag-btn" id="gpagNext" onclick="changeGaleriPage(1)" aria-label="Halaman berikutnya">Berikutnya &#8594;</button>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+      <div class="lightbox-backdrop" onclick="closeLightbox()"></div>
+      <button class="lightbox-close" onclick="closeLightbox()" aria-label="Tutup">&times;</button>
+      <button class="lightbox-nav lightbox-prev" onclick="lightboxNav(-1)" aria-label="Foto sebelumnya">&#8592;</button>
+      <button class="lightbox-nav lightbox-next" onclick="lightboxNav(1)" aria-label="Foto berikutnya">&#8594;</button>
+      <div class="lightbox-content">
+        <img id="lightboxImg" src="" alt="" class="lightbox-img">
+        <div class="lightbox-info">
+          <div id="lightboxTitle" class="lightbox-title"></div>
+          <div id="lightboxDesc" class="lightbox-desc"></div>
+          <div id="lightboxDate" class="lightbox-date-tag"></div>
+        </div>
+        <div id="lightboxCounter" class="lightbox-counter"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PENGADUAN -->
+<div class="section-alt" id="pengaduan">
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-label">Layanan Aspirasi</div>
+      <h2 class="section-title">Pengaduan &amp; Saran</h2>
+      <p class="section-desc">Sampaikan pengaduan, saran, atau masukan Anda secara resmi kepada Dewan Ambalan SMK SMTI Padang.</p>
+      <div class="pengaduan-wrap">
+        <div class="pengaduan-info">
+          <div class="pengaduan-info-icon">📣</div>
+          <h3>Kenapa Layanan Ini Penting?</h3>
+          <p>Setiap aspirasi dan pengaduan Anda sangat berarti bagi perkembangan Ambalan. Laporan Anda akan diproses secara rahasia dan ditindaklanjuti oleh Dewan Ambalan.</p>
+          <div class="pengaduan-list">
+            <div class="pengaduan-list-item"><span>📝</span> Pengaduan kegiatan atau program</div>
+            <div class="pengaduan-list-item"><span>💡</span> Saran &amp; masukan pengembangan</div>
+            <div class="pengaduan-list-item"><span>🤝</span> Pertanyaan keanggotaan</div>
+            <div class="pengaduan-list-item"><span>⚠️</span> Laporan pelanggaran kode etik</div>
+          </div>
+          <div class="pengaduan-note">
+            <strong>🔒 Kerahasiaan Terjaga</strong><br>
+            Data Anda hanya diakses oleh Pembina &amp; Dewan Ambalan terkait.
+          </div>
+        </div>
+        <div class="pengaduan-form-wrap">
+          <!-- 
+            PETUNJUK UNTUK ADMIN:
+            Ganti URL src di bawah dengan link Google Form Anda.
+            Caranya:
+            1. Buka Google Form Anda
+            2. Klik "Kirim" → ikon link (<>)
+            3. Pilih "Sematkan" dan salin URL-nya saja
+            4. Tempelkan URL tersebut ke atribut src di bawah
+          -->
+          <iframe
+            class="pengaduan-iframe"
+            src="https://docs.google.com/forms/d/e/1FAIpQLScaD0b8uh5Om-55Kd-bMI7v-n3MpOZytDzJmP-0zA542-q-Hg/viewform?usp=header"
+            id="pengaduanForm"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            title="Form Pengaduan Ambalan SMK SMTI Padang"
+            loading="lazy">
+            Memuat formulir...
+          </iframe>
+          <div class="pengaduan-fallback" id="pengaduanFallback">
+            <div class="pf-icon">📋</div>
+            <p>Tidak dapat memuat formulir?</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScaD0b8uh5Om-55Kd-bMI7v-n3MpOZytDzJmP-0zA542-q-Hg/viewform?usp=header" target="_blank" rel="noopener" class="btn-pengaduan-ext">
+              Buka Formulir Pengaduan ↗
+            </a>
+            <p class="pf-note">Atau hubungi kami langsung melalui Instagram <a href="https://instagram.com/dewanambalan_smti" target="_blank">@dewanambalan_smti</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- KONTAK -->
+<div class="section-alt" id="kontak">
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-label">Hubungi Kami</div>
+      <h2 class="section-title">Kontak &amp; Lokasi</h2>
+      <p class="section-desc">Hubungi kami untuk informasi kegiatan atau bergabung menjadi anggota.</p>
+      <div class="kontak-grid">
+        <div class="kontak-info-card">
+          <h3>Sekretariat Ambalan</h3>
+          <div class="kontak-rows">
+            <div class="kontak-row">
+              <div class="kontak-icon">📍</div>
+              <div class="kontak-row-text">
+                <strong>Alamat</strong>
+                <span data-cfg="contact.address">Jl. Ir. H. Juanda No.2, Padang Barat, Kota Padang, Sumatera Barat 25129</span>
+              </div>
+            </div>
+            <div class="kontak-row">
+              <div class="kontak-icon">🏫</div>
+              <div class="kontak-row-text">
+                <strong>Sekolah</strong>
+                <span data-cfg="contact.school">SMK SMTI Padang — Kementerian Perindustrian RI</span>
+              </div>
+            </div>
+            <div class="kontak-row">
+              <div class="kontak-icon">📱</div>
+              <div class="kontak-row-text">
+                <strong>Instagram</strong>
+                <a data-cfg-href="contact.instagram" data-cfg="contact.instagramHandle" href="#" target="_blank" rel="noopener" class="kontak-link">@dewanambalan_smti</a>
+              </div>
+            </div>
+            <div class="kontak-row">
+              <div class="kontak-icon">✉️</div>
+              <div class="kontak-row-text">
+                <strong>Email</strong>
+                <a data-cfg-href-mailto="contact.email" data-cfg="contact.email" href="#" class="kontak-link">ambalansmksmtipadang@gmail.com</a>
+              </div>
+            </div>
+            <div class="kontak-row">
+              <div class="kontak-icon">🕐</div>
+              <div class="kontak-row-text">
+                <strong>Jam Aktif</strong>
+                <span data-cfg="contact.jamAktif">Senin – Jumat, 07.30 – 15.30 WIB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="kontak-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="inputNama">Nama Lengkap</label>
+              <input type="text" id="inputNama" placeholder="Nama Anda" autocomplete="name" />
+              <span class="form-error" id="errNama"></span>
+            </div>
+            <div class="form-group">
+              <label for="inputTingkatan">Tingkatan</label>
+              <select id="inputTingkatan">
+                <option value="">-- Pilih Tingkatan --</option>
+                <option value="Bantara">Bantara</option>
+                <option value="Laksana">Laksana</option>
+                <option value="Umum">Umum / Masyarakat</option>
+              </select>
+              <span class="form-error" id="errTingkatan"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputJenis">Jenis Pesan</label>
+            <select id="inputJenis">
+              <option value="">-- Pilih Jenis Pesan --</option>
+              <option value="Informasi Keanggotaan">Informasi Keanggotaan</option>
+              <option value="Pertanyaan Umum">Pertanyaan Umum</option>
+              <option value="Pengaduan">Pengaduan</option>
+              <option value="Informasi Kegiatan">Informasi Kegiatan</option>
+            </select>
+            <span class="form-error" id="errJenis"></span>
+          </div>
+          <div class="form-group">
+            <label for="inputPesan">Pesan</label>
+            <textarea id="inputPesan" placeholder="Tulis pertanyaan atau pesan Anda di sini..."></textarea>
+            <span class="form-error" id="errPesan"></span>
+          </div>
+          <button class="btn-submit" onclick="submitForm()">Kirim Pesan →</button>
+          <div class="form-success" id="formSuccess">
+            ✅ Pesan berhasil dikirim! Kami akan segera merespons. -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <img data-cfg-src="logo.path" data-cfg-alt="logo.alt"
+             src="assets/images/logo/logo-pramuka.png"
+             alt="Logo Ambalan Pramuka Penegak SMK SMTI Padang"
+             style="width:44px;height:44px;border-radius:50%;object-fit:cover;border:2px solid var(--accent-light);"
+             loading="lazy">
+        <div>
+          <div style="font-size:15px;font-weight:700;color:white;" data-cfg="identity.schoolShort">SMK SMTI Padang</div>
+          <div style="font-size:11px;color:#7A6850;letter-spacing:0.06em;" data-cfg="identity.ambalan">Ambalan Ir.Juanda &amp; Rohana Kudus</div>
+        </div>
+      </div>
+      <p>Gugus depan 03-129 / 03-130 pangkalan SMK SMTI Padang, membina anggota berkarakter, mandiri, dan berdedikasi.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigasi</h4>
+      <ul>
+        <li onclick="goTo('hero')">Beranda</li>
+        <li onclick="goTo('tentang')">Tentang Ambalan</li>
+        <li onclick="goTo('visi-misi')">Visi &amp; Misi</li>
+        <li onclick="goTo('tugas')">Kegiatan Ambalan</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Organisasi</h4>
+      <ul>
+        <li onclick="goTo('pengurus')">Struktur Pengurus</li>
+        <li onclick="goTo('proker')">Program Kerja</li>
+        <li onclick="goTo('berita')">Berita &amp; Info</li>
+        <li onclick="goTo('galeri')">Galeri</li>
+        <li onclick="goTo('pengaduan')">Pengaduan</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Kontak</h4>
+      <ul>
+        <li data-cfg="contact.addressShort1">Jl. Ir. H. Juanda No.2</li>
+        <li data-cfg="contact.addressShort2">Padang, Sumatera Barat</li>
+        <li data-cfg="contact.email">ambalansmksmtipadang@gmail.com</li>
+        <li onclick="goTo('kontak')">Kirim Pesan</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>©<span id="footerYear"></span> <span>Ambalan SMK SMTI Padang</span>. Semua hak dilindungi.</p>
+    <p>Dibuat oleh Dewan Ambalan 22 SMK SMTI Padang</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
