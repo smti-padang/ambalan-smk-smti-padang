@@ -5,19 +5,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title data-cfg="identity.pageTitle">Ambalan Ir.Juanda &amp; Rohana Kudus SMK SMTI Padang</title>
+  <title>Ambalan Ir.Juanda &amp; Rohana Kudus SMK SMTI Padang</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
-  <!-- KONFIGURASI: edit semua foto, identitas, kontak, berita, dan galeri di config.js -->
   <script src="config.js"></script>
 </head>
 <body>
 
 <!-- TOP BAR -->
 <div class="topbar">
-  <div class="topbar-left" data-cfg="identity.schoolFull">SMK SMTI Padang — Kementerian Perindustrian RI</div>
+  <div class="topbar-left">SMK SMTI Padang — Kementerian Perindustrian RI</div>
   <div class="topbar-right">
-    <a data-cfg-href="contact.instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://instagram.com/dewanambalan_smti" target="_blank" rel="noopener">Instagram</a>
     <a href="#kontak" onclick="goTo('kontak'); return false;">Kontak</a>
   </div>
 </div>
@@ -26,15 +25,13 @@
 <nav id="navbar">
   <div class="nav-inner">
     <a href="#hero" class="nav-logo" onclick="goTo('hero'); return false;">
-      <img data-cfg-src="logo.path"
-           data-cfg-alt="logo.alt"
-           src="assets/images/logo/logo-pramuka.png"
+      <img src="assets/images/logo/logo-pramuka.png"
            alt="Logo Ambalan Pramuka Penegak SMK SMTI Padang"
            class="logo-image"
            loading="lazy">
       <div class="logo-text">
-        <div class="logo-main" data-cfg="identity.tagline">Pramuka Penegak SMK SMTI Padang</div>
-        <div class="logo-sub" data-cfg="identity.ambalan">Ambalan Ir.Juanda & Rohana Kudus</div>
+        <div class="logo-main">Pramuka Penegak SMK SMTI Padang</div>
+        <div class="logo-sub">Ambalan Ir.Juanda & Rohana Kudus</div>
       </div>
     </a>
     <div class="nav-menu" id="navMenu">
@@ -49,24 +46,12 @@
       <a onclick="goTo('kontak')" class="nav-link nav-cta">Hubungi Kami</a>
     </div>
     <button class="hamburger" id="hamburger" aria-label="Buka menu navigasi" aria-expanded="false">
-      <span></span><span></span><span></span>
+      <span>
     </button>
-  </div>
-  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
-    <a onclick="goTo('hero'); closeMobileMenu();" class="mobile-link">Beranda</a>
-    <a onclick="goTo('tentang'); closeMobileMenu();" class="mobile-link">Tentang Ambalan</a>
-    <a onclick="goTo('visi-misi'); closeMobileMenu();" class="mobile-link">Visi &amp; Misi</a>
-    <a onclick="goTo('tugas'); closeMobileMenu();" class="mobile-link">Kegiatan Ambalan</a>
-    <a onclick="goTo('pengurus'); closeMobileMenu();" class="mobile-link">Pengurus</a>
-    <a onclick="goTo('proker'); closeMobileMenu();" class="mobile-link">Program Kerja</a>
-    <a onclick="goTo('berita'); closeMobileMenu();" class="mobile-link">Berita</a>
-    <a onclick="goTo('galeri'); closeMobileMenu();" class="mobile-link">Galeri</a>
-    <a onclick="goTo('pengaduan'); closeMobileMenu();" class="mobile-link">Pengaduan</a>
-    <a onclick="goTo('kontak'); closeMobileMenu();" class="mobile-link mobile-link-cta">Hubungi Kami</a>
   </div>
 </nav>
 
-<!-- PAGE TABS -->
+<!-- PAGE TABS 
 <div class="page-tabs" id="pageTabs">
   <div class="page-tabs-inner">
     <div class="ptab active" onclick="goTo('hero')">Halaman Muka</div>
@@ -80,7 +65,7 @@
     <div class="ptab" onclick="goTo('pengaduan')">Pengaduan</div>
     <div class="ptab" onclick="goTo('kontak')">Kontak</div>
   </div>
-</div>
+</div> -->
 
 <!-- HERO -->
 <section class="hero" id="hero">
@@ -121,7 +106,6 @@
       <div class="about-body">
         <div class="section-label">Tentang Kami</div>
         <h2 class="section-title">Mengenal Ambalan Pramuka</h2>
-        <p class="section-desc">Mengenal lebih dekat organisasi Ambalan Pramuka Penegak di SMK SMTI Padang.</p>
         <p>Ambalan Pramuka Penegak merupakan satuan gerak dan wadah pembinaan tertinggi bagi Pramuka Penegak di SMK SMTI Padang. Ambalan menjadi tempat bagi para anggota untuk mengasah kemandirian dan jiwa kepemimpinan dalam satuan terpisah.</p>
         <p>Sebagai organisasi kepanduan, Ambalan menjalankan program pembinaan watak, keterampilan kepramukaan, dan pengabdian masyarakat berlandaskan Dasadarma Pramuka.</p>
         <p>Ambalan SMK SMTI Padang berada di bawah pembinaan Pembina Pramuka sekolah dan berkomitmen mencetak anggota penegak yang disiplin, bertanggung jawab, dan siap mengabdi kepada bangsa.</p>
@@ -140,11 +124,11 @@
         </div>
         <div style="margin-top:1.25rem;display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
           <div style="background:var(--gray-light);border-radius:10px;padding:1.25rem;text-align:center;">
-            <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--blue);">85+</div>
+            <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--blue);">60+</div>
             <div style="font-size:11px;font-weight:600;color:var(--text-muted);letter-spacing:0.08em;text-transform:uppercase;margin-top:4px;">Anggota Aktif</div>
           </div>
           <div style="background:var(--gray-light);border-radius:10px;padding:1.25rem;text-align:center;">
-            <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--accent);">23+</div>
+            <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--accent);">2000</div>
             <div style="font-size:11px;font-weight:600;color:var(--text-muted);letter-spacing:0.08em;text-transform:uppercase;margin-top:4px;">Tahun Berdiri</div>
           </div>
         </div>
@@ -350,7 +334,7 @@
 
         <!-- ══════════════════════════
              SEKSI-SEKSI (5 seksi)
-        ══════════════════════════ -->
+        ════════════════════════════ -->
         <div class="org-seksi-wrap">
 
           <!-- SEKSI TEKNIK KEPRAMUKAAN -->
@@ -369,10 +353,6 @@
                   <div class="org-anggota-name">Rafi Afriady</div>
                   <div class="org-anggota-label">ANGGOTA</div>
                   <div class="org-anggota-name">Arsyad Abdul Rahman</div>
-                  <!--  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Muhamad ZulFajri</div>
-                  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Audi Riski</div>  -->
                 </div>
               </div>
               <div class="org-koord-col">
@@ -387,10 +367,6 @@
                   <div class="org-anggota-name">Zievara Khairunnisa</div>
                   <div class="org-anggota-label">ANGGOTA</div>
                   <div class="org-anggota-name">Cindy Aulia</div>
-                  <!--  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Inaya Salma</div>
-                  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Raysha Kausarany</div>   -->
                 </div>
               </div>
             </div>
@@ -414,8 +390,6 @@
                   <div class="org-anggota-name">Adskhan Daffa Shendry</div>
                   <div class="org-anggota-label">ANGGOTA</div>
                   <div class="org-anggota-name">Farel Padria</div>
-                  <!-- <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">M.Al Ghani Ezza Safirah</div>  -->
                 </div>
               </div>
               <div class="org-koord-col">
@@ -430,8 +404,6 @@
                   <div class="org-anggota-name">Hazimah Rafifa Abny</div>
                   <div class="org-anggota-label">ANGGOTA</div>
                   <div class="org-anggota-name">Aulia Dwi Parlincia</div>
-                  <!-- <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Nafisha Syakina Vicella</div>  -->
                 </div>
               </div>
             </div>
@@ -453,12 +425,6 @@
                   <div class="org-anggota-name">Farez Noufal Nadjiib</div>
                   <div class="org-anggota-label">ANGGOTA</div>
                   <div class="org-anggota-name">Juliandra Fernando</div>
-                  <!-- <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">M. Faiz Razaq</div>
-                  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Siswandi Hidayat</div>
-                  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Farez Naufal Nadjih</div>  -->
                 </div>
               </div>
               <div class="org-koord-col">
@@ -473,10 +439,6 @@
                   <div class="org-anggota-name">Meylisa Rahmawati Putri </div>
                   <div class="org-anggota-label">ANGGOTA</div>
                   <div class="org-anggota-name">Shafira Dwi Putri</div>
-                  <!--  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Regina Gastia</div>
-                  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Batrisia Najla</div>  -->
                 </div>
               </div>
             </div>
@@ -502,8 +464,6 @@
                   <div class="org-anggota-name">Raden Muhammad Fajar</div>
                   <div class="org-anggota-label">ANGGOTA</div>
                   <div class="org-anggota-name">Muhammad Rasya Rauf Sampurna</div>
-                  <!-- <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Haajib Reszk Cahyono</div>  -->
                 </div>
               </div>
               <div class="org-koord-col">
@@ -518,10 +478,6 @@
                   <div class="org-anggota-name">Laora Novira Ningsih</div>
                   <div class="org-anggota-label">ANGGOTA</div>
                   <div class="org-anggota-name">Khayyira Luthfia Verdinal</div>
-                  <!--  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Ayra Arasy Resyka</div>
-                  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Merli Arifatul Hanifah</div>  -->
                 </div>
               </div>
             </div>
@@ -545,10 +501,6 @@
                   <div class="org-anggota-name">Afif Kholish</div>
                   <div class="org-anggota-label">ANGGOTA</div>
                   <div class="org-anggota-name">Pandu Mayesa Divia</div>
-                  <!--  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Delvin Mujfadzal Haq</div>
-                  <div class="org-anggota-label">ANGGOTA</div>
-                  <div class="org-anggota-name">Andhika Yudha Ramadhani</div>  -->
                 </div>
               </div>
               <div class="org-koord-col">
@@ -745,10 +697,56 @@
       <div class="section-label">Informasi Terkini</div>
       <h2 class="section-title">Berita &amp; Pengumuman</h2>
       <p class="section-desc">Ikuti perkembangan terbaru dari Ambalan Ir.Juanda &amp; Rohana Kudus</p>
-      <!-- Konten berita di-render otomatis dari config.js (SITE_CONFIG.beritaMain & beritaList) -->
       <div class="berita-grid">
-        <div class="berita-main" id="beritaMain"></div>
-        <div class="berita-list-side" id="beritaList"></div>
+        <div class="berita-main">
+          <div class="berita-img-wrap">
+            <img
+              src="assets/images/berita/pelantikan-dewan-2026-2027.png"
+              alt="Pelantikan Dewan Ambalan SMK SMTI Padang Periode 2026/2027"
+              class="berita-img-foto"
+              loading="lazy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="berita-img-fallback">🏆</div>
+          </div>
+          <div class="berita-body">
+            <div class="berita-meta">
+              <span class="berita-tag">Utama</span>
+              <span class="berita-date">11 April 2026</span>
+            </div>
+            <h3>Pelantikan Dewan Ambalan SMK SMTI Padang Periode 2026/2027</h3>
+            <p>Kamis, 11 April 2026 — Pelantikan Dewan Ambalan yang baru resmi dilaksanakan oleh Kepala SMK SMTI Padang. Pradana terpilih, Muhammad Andis Purbaya, siap mengemban amanah memimpin Ambalan periode ini.</p>
+          </div>
+        </div>
+        <div class="berita-list-side">
+          <div class="berita-item">
+            <div class="berita-item-date"><div class="bid-num">10</div><div class="bid-mon">Feb</div></div>
+            <div class="berita-item-text">
+              <h4>Musyawarah Ambalan Gudep 03-129 / 03-130 Ambalan Ir.Juanda & Rohana Kudus</h4>
+              <p>Seluruh anggota mengikuti musyawarah ambalan yang diselenggarakan di gedung sekolah sekaligus pembentukan dewan ambalan baru periode 2026/2027.</p>
+            </div>
+          </div>
+          <div class="berita-item">
+            <div class="berita-item-date"><div class="bid-num">1-2</div><div class="bid-mon">Nov</div></div>
+            <div class="berita-item-text">
+              <h4>Bakti Sosial &amp; Lingkungan Masyarakat</h4>
+              <p>Kegiatan kerja bakti sosial di lngkungan masyarakat Kelurahan Nanggalo.</p>
+            </div>
+          </div>
+          <div class="berita-item">
+            <div class="berita-item-date"><div class="bid-num">1-2</div><div class="bid-mon">Nov</div></div>
+            <div class="berita-item-text">
+              <h4>Pelantikan 23 Penegak Bantara Baru</h4>
+              <p>23 anggota baru resmi dilantik sebagai Penegak Bantara dalam upacara pelantikan yang hikmat.</p>
+            </div>
+          </div>
+          <div class="berita-item">
+            <div class="berita-item-date"><div class="bid-num">30</div><div class="bid-mon">Aug</div></div>
+            <div class="berita-item-text">
+              <h4>Hiking &amp;Pelantikan kacu seluruh siswa SMK SMTI Padang</h4>
+              <p>Sabtu, 30 Agustus 2025 — Pelantikan tamu ambalan Ir.Juanda & Rohana Kudus oleh Kepala SMK SMTI Padang selaku kamabigus gugus depan 03-129 / 03-130.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -767,7 +765,7 @@
       <button class="gfilter-btn" onclick="filterGaleri('pelantikan', this)">Pelantikan</button>
       <button class="gfilter-btn" onclick="filterGaleri('perkemahan', this)">Perkemahan</button>
       <button class="gfilter-btn" onclick="filterGaleri('latihan', this)">Latihan</button>
-      <button class="gfilter-btn" onclick="filterGaleri('bakti-sosial', this)">Bakti Sosial</button>
+      <button class="gfilter-btn" onclick="filterGaleri('sosial', this)">Bakti Sosial</button>
       <button class="gfilter-btn" onclick="filterGaleri('upacara', this)">Upacara</button>
       <button class="gfilter-btn" onclick="filterGaleri('bukber', this)">Buka Bersama</button>
     </div>
@@ -778,10 +776,147 @@
       <span id="galeriCountText">8 foto</span>
     </div>
 
-    <!-- Galeri di-render otomatis dari config.js (SITE_CONFIG.galeri).
-         Untuk menambah/mengganti foto: edit array galeri di config.js. -->
-    <div class="galeri-grid" id="galeriGrid"></div>
+    <div class="galeri-grid" id="galeriGrid">
 
+      <!-- ── PELANTIKAN ── -->
+      <div class="galeri-item" data-title="Pelantikan Bantara Baru 2025" data-kategori="pelantikan" data-date="November 2025" data-desc="Pelantikan resmi 23 anggota baru sebagai Penegak Bantara Ambalan Ir.Juanda &amp; Rohana Kudus." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/pelantikan/pelantikan-bantara-baru.png" alt="Pelantikan Bantara Baru 2025" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Pelantikan Bantara Baru</span>
+          <span class="galeri-date-badge">Nov 2025</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Pelantikan Dewan Ambalan 2026–2027" data-kategori="pelantikan" data-date="April 2026" data-desc="Pelantikan Dewan Ambalan Ir.Juanda &amp; Rohana Kudus periode 2026–2027 oleh Kepala SMK SMTI Padang." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/pelantikan/pelantikan-dewan-2026-2027.png" alt="Pelantikan Dewan 2026-2027" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Pelantikan Dewan</span>
+          <span class="galeri-date-badge">Apr 2026</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Pelantikan &amp; Pengukuhan Kacu" data-kategori="pelantikan" data-date="Agustus 2025" data-desc="Hiking dan pelantikan kacu seluruh siswa SMK SMTI Padang sebagai tamu ambalan Ir.Juanda &amp; Rohana Kudus." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/pelantikan/pelantikan-kacu.png" alt="Pelantikan Kacu" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Pelantikan Kacu</span>
+          <span class="galeri-date-badge">Agu 2025</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Pelantikan Laksana Putri 2025" data-kategori="pelantikan" data-date="2025" data-desc="Pelantikan resmi anggota putri yang mencapai tingkat Penegak Laksana." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/pelantikan/pelantikan-laksana-cewek-2025.png" alt="Pelantikan Laksana Putri 2025" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Pelantikan Laksana Putri</span>
+          <span class="galeri-date-badge">Mei 2025</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Pengambilan Laksana 2025" data-kategori="pelantikan" data-date="2025" data-desc="Proses pengambilan tingkat Penegak Laksana oleh anggota Ambalan SMK SMTI Padang." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/pelantikan/pengambilan-laksana-2025.png" alt="Pengambilan Laksana 2025" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Pengambilan Laksana</span>
+          <span class="galeri-date-badge">Mei 2025</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Pelantikan Dewan Periode 2025–2026" data-kategori="pelantikan" data-date="2025" data-desc="Pelantikan Dewan Ambalan Ir.Juanda &amp; Rohana Kudus periode 2025–2026." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/pelantikan/penlantikan-dewan-periode-2025-2026.png" alt="Pelantikan Dewan 2025-2026" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Pelantikan Dewan</span>
+          <span class="galeri-date-badge">2025</span>
+        </div>
+      </div>
+
+      <!-- ── PERKEMAHAN ── -->
+      <div class="galeri-item" data-title="Perkemahan Tahunan" data-kategori="perkemahan" data-date="2025" data-desc="Perkemahan bersama seluruh anggota untuk melatih kemandirian, kerjasama, dan ketahanan di alam terbuka." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/perkemahan/perkemahan-tahunan.png" alt="Perkemahan Tahunan" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Perkemahan Tahunan</span>
+          <span class="galeri-date-badge">Mei 2025</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Hiking 2025 (Sesi 1)" data-kategori="perkemahan" data-date="Agustus 2025" data-desc="Kegiatan hiking bersama anggota Ambalan sebagai bagian dari rangkaian pelantikan kacu." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/perkemahan/hiking-v1-2025.png" alt="Hiking 2025 Sesi 1" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Hiking (Sesi 1)</span>
+          <span class="galeri-date-badge">Agu 2025</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Hiking 2025 (Sesi 2)" data-kategori="perkemahan" data-date="Agustus 2025" data-desc="Dokumentasi lanjutan kegiatan hiking Ambalan SMK SMTI Padang 2025." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/perkemahan/hiking-v2-2025.png" alt="Hiking 2025 Sesi 2" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Hiking (Sesi 2)</span>
+          <span class="galeri-date-badge">Agu 2025</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Musyawarah Ambalan 2025" data-kategori="perkemahan" data-date="Februari 2025" data-desc="Musyawarah Ambalan Gudep 03-129/03-130 sekaligus pembentukan dewan ambalan baru." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/perkemahan/musbalan-2025.png" alt="Musbalan 2025" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Musyawarah Ambalan</span>
+          <span class="galeri-date-badge">Feb 2025</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Persami Korps Kadet Republik Indonesia" data-kategori="perkemahan" data-date="2025" data-desc="Perkemahan Sabtu–Minggu bersama Korps Kadet Republik Indonesia." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/perkemahan/persami-kkri.png" alt="Persami Korps Kadet RI" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Persami Korps Kadet RI</span>
+          <span class="galeri-date-badge">Nov 2025</span>
+        </div>
+      </div>
+
+      <!-- ── UPACARA ── -->
+      <div class="galeri-item" data-title="Petugas Upacara Bendera" data-kategori="upacara" data-date="2025" data-desc="Ambalan SMK SMTI Padang bertugas sebagai petugas upacara bendera sekolah." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/upacara/petugas-upacara-bendera.png" alt="Petugas Upacara Bendera" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Petugas Upacara Bendera</span>
+          <span class="galeri-date-badge">Okt 2025</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Upacara Pembukaan Raimuna Daerah" data-kategori="upacara" data-date="2025" data-desc="Upacara resmi pembukaan Raimuna Daerah yang diikuti oleh Ambalan SMK SMTI Padang." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/upacara/upacara-pembukaan-raimuna-daerah.png" alt="Upacara Pembukaan Raimuna Daerah" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Raimuna Daerah</span>
+          <span class="galeri-date-badge">Nov 2025</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Upacara Sumpah Pemuda ke-97" data-kategori="upacara" data-date="Oktober 2024" data-desc="Ambalan SMK SMTI Padang berpartisipasi dalam upacara peringatan Hari Sumpah Pemuda ke-97." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/upacara/upacara-sumpah-pemuda-97.png" alt="Upacara Sumpah Pemuda ke-97" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Sumpah Pemuda ke-97</span>
+          <span class="galeri-date-badge">Okt 2024</span>
+        </div>
+      </div>
+
+      <!-- ── LATIHAN ── -->
+      <div class="galeri-item" data-title="Latihan Rutin Kepramukaan" data-kategori="latihan" data-date="2025" data-desc="Latihan mingguan mencakup keterampilan tali temali, morse, semaphore, PBB, dan navigasi alam." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/latihan/latihan-rutin-kepramukaan.png" alt="Latihan Rutin Kepramukaan" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Latihan Rutin Kepramukaan</span>
+          <span class="galeri-date-badge">Jun 2025</span>
+        </div>
+      </div>
+
+      <!-- ── BAKTI SOSIAL ── -->
+      <div class="galeri-item" data-title="Bakti Sosial Masyarakat" data-kategori="sosial" data-date="November 2025" data-desc="Kegiatan kerja bakti sosial di lingkungan masyarakat Kelurahan Nanggalo." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/bakti-sosial/bakti-sosial-masyrakat.png" alt="Bakti Sosial Masyarakat" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Bakti Sosial Masyarakat</span>
+          <span class="galeri-date-badge">Nov 2025</span>
+        </div>
+      </div>
+
+      <!-- ── BUKBER ── -->
+      <div class="galeri-item" data-title="Buka Bersama 3 Angkatan 2025" data-kategori="bukber" data-date="Ramadan 2025" data-desc="Kegiatan buka bersama yang dihadiri oleh 3 angkatan Ambalan SMK SMTI Padang sebagai ajang silaturahmi." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/bukber/buka-bersama-3-anggkatan-2025.png" alt="Buka Bersama 3 Angkatan 2025" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Bukber 3 Angkatan</span>
+          <span class="galeri-date-badge">Ramadan 2025</span>
+        </div>
+      </div>
+      <div class="galeri-item" data-title="Buka Bersama 3 Angkatan 2026" data-kategori="bukber" data-date="Ramadan 2026" data-desc="Kegiatan buka bersama tahunan yang mempertemukan alumni dan anggota aktif Ambalan SMK SMTI Padang." onclick="openLightbox(this)">
+        <img src="assets/images/galeri/bukber/buka-bersama-3-anggkatan-2026.png" alt="Buka Bersama 3 Angkatan 2026" class="galeri-thumb" loading="lazy">
+        <div class="galeri-overlay">
+          <span class="galeri-label">Bukber 3 Angkatan</span>
+          <span class="galeri-date-badge">Ramadan 2026</span>
+        </div>
+      </div>
+
+    </div>
 
     <!-- Pagination -->
     <div class="galeri-pagination" id="galeriPagination">
@@ -882,35 +1017,35 @@
               <div class="kontak-icon">📍</div>
               <div class="kontak-row-text">
                 <strong>Alamat</strong>
-                <span data-cfg="contact.address">Jl. Ir. H. Juanda No.2, Padang Barat, Kota Padang, Sumatera Barat 25129</span>
+                <span>Jl. Ir. H. Juanda No.2, Padang Barat, Kota Padang, Sumatera Barat 25129</span>
               </div>
             </div>
             <div class="kontak-row">
               <div class="kontak-icon">🏫</div>
               <div class="kontak-row-text">
                 <strong>Sekolah</strong>
-                <span data-cfg="contact.school">SMK SMTI Padang — Kementerian Perindustrian RI</span>
+                <span>SMK SMTI Padang — Kementerian Perindustrian RI</span>
               </div>
             </div>
             <div class="kontak-row">
               <div class="kontak-icon">📱</div>
               <div class="kontak-row-text">
                 <strong>Instagram</strong>
-                <a data-cfg-href="contact.instagram" data-cfg="contact.instagramHandle" href="#" target="_blank" rel="noopener" class="kontak-link">@dewanambalan_smti</a>
+                <a href="https://instagram.com/dewanambalan_smti" target="_blank" rel="noopener" class="kontak-link">@dewanambalan_smti</a>
               </div>
             </div>
             <div class="kontak-row">
               <div class="kontak-icon">✉️</div>
               <div class="kontak-row-text">
                 <strong>Email</strong>
-                <a data-cfg-href-mailto="contact.email" data-cfg="contact.email" href="#" class="kontak-link">ambalansmksmtipadang@gmail.com</a>
+                <a href="mailto:ambalansmksmtipadang@gmail.com" class="kontak-link">ambalansmksmtipadang@gmail.com</a>
               </div>
             </div>
             <div class="kontak-row">
               <div class="kontak-icon">🕐</div>
               <div class="kontak-row-text">
                 <strong>Jam Aktif</strong>
-                <span data-cfg="contact.jamAktif">Senin – Jumat, 07.30 – 15.30 WIB</span>
+                <span>Senin – Jumat, 07.30 – 15.30 WIB</span>
               </div>
             </div>
           </div>
@@ -964,14 +1099,13 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <div style="display:flex;align-items:center;gap:12px;">
-        <img data-cfg-src="logo.path" data-cfg-alt="logo.alt"
-             src="assets/images/logo/logo-pramuka.png"
+        <img src="assets/images/logo/logo-pramuka.png"
              alt="Logo Ambalan Pramuka Penegak SMK SMTI Padang"
              style="width:44px;height:44px;border-radius:50%;object-fit:cover;border:2px solid var(--accent-light);"
              loading="lazy">
         <div>
-          <div style="font-size:15px;font-weight:700;color:white;" data-cfg="identity.schoolShort">SMK SMTI Padang</div>
-          <div style="font-size:11px;color:#7A6850;letter-spacing:0.06em;" data-cfg="identity.ambalan">Ambalan Ir.Juanda &amp; Rohana Kudus</div>
+          <div style="font-size:15px;font-weight:700;color:white;">SMK SMTI Padang</div>
+          <div style="font-size:11px;color:#7A6850;letter-spacing:0.06em;">Ambalan Ir.Juanda &amp; Rohana Kudus</div>
         </div>
       </div>
       <p>Gugus depan 03-129 / 03-130 pangkalan SMK SMTI Padang, membina anggota berkarakter, mandiri, dan berdedikasi.</p>
@@ -998,9 +1132,9 @@
     <div class="footer-col">
       <h4>Kontak</h4>
       <ul>
-        <li data-cfg="contact.addressShort1">Jl. Ir. H. Juanda No.2</li>
-        <li data-cfg="contact.addressShort2">Padang, Sumatera Barat</li>
-        <li data-cfg="contact.email">ambalansmksmtipadang@gmail.com</li>
+        <li>Jl. Ir. H. Juanda No.2</li>
+        <li>Padang, Sumatera Barat</li>
+        <li>ambalansmksmtipadang@gmail.com</li>
         <li onclick="goTo('kontak')">Kirim Pesan</li>
       </ul>
     </div>
